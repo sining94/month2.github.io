@@ -1,0 +1,285 @@
+@charset "utf-8"
+/*헤더시작------------------------------------------------*/
+		body {
+			font-family: "Arial";
+			color: white;
+			margin: 0;
+			padding: 0;
+			width: 1900px;
+			height: 3200px;
+			background:black;
+		}
+        header {
+        	width: 1900px;
+        	height: 80px;
+        	margin: 0 auto;
+        }
+
+        #logo {
+        	width: 100px;
+        	height: 80px;
+        	position: absolute;
+        	left: 20px;
+        	top: 0px;
+        	padding: 0;
+        	margin: 0;
+        	font-size: 80px;
+        	text-align: center;
+        }
+
+        .fa-bars {
+        	color: white;
+        	font-size: 40px;
+        	margin-top: 20px;
+        }
+
+        nav {
+        	width: 1500px;
+        	margin: 0 auto;
+        }
+
+        ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			margin-left: 60px;
+		}
+
+		ul li {
+			font-size: 30px;
+			float: left;
+			width: 200px;
+			height: 80px;
+			margin: 0 auto;
+			margin-right: 150px;
+			text-align: center;
+			line-height: 80px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		ul li:after {
+			content: "";
+			display: block;
+			clear: both;
+			width: 200px;
+			height: 80px;
+			background: black;
+			opacity: 1;
+			position: absolute;
+			top: 0;
+			right: 0;
+			transition: 0.5s;
+			opacity: 0.3;
+		}
+
+		ul li:hover:after {
+			right: -200px;
+		}
+/*헤더끝------------------------------------------------------------------*/
+/*섹션1-----------------------------------------------------------------------*/
+         #main_01 {
+         	width: 1900px;
+         	height: 800px;
+         	background-image: url(main_01.jpg);
+         	background-repeat: no-repeat;
+         	background-size: contain;
+         	background-position: center;
+         	margin: 0 auto;
+         }
+/*섹션1끝---------------------------------------------------------------*/
+/*섹션2-------------------------------------------------------------------*/
+		.main_02 {
+			width: 1900px;
+			height: 600px;
+			margin-top: 200px;
+		}
+
+		.main_02 div {
+			float: left;
+			width: 475px; /*475*/
+			height: 600px;
+			text-align: center;
+			position: relative;
+		}
+
+		#main_02_ima01 {
+			background-image: url(main_02_ima01.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima01 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima01:hover div {
+			height: 600px;
+		}
+
+		
+
+		#main_02_ima02 {
+			background-image: url(main_02_ima02.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima02 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima02:hover div {
+			height: 600px;
+		}
+
+		#main_02_ima03 {
+			background-image: url(main_02_ima03.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima03 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima03:hover div {
+			height: 600px;
+		}
+
+		#main_02_ima04 {
+			background-image: url(main_02_ima04.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima04 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima04:hover div {
+			height: 600px;
+		}
+
+		.main_02 p {
+			color: white;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+
+		[id^="main_02_ima"] div p {
+			text-align:center;
+			line-height: 600px;
+			color: white;
+		}
+/*섹션2끝-----------------------------------------------------------*/	
+		#main_03_wrap {
+			width: 1600px;
+			height: 1100px;
+			margin: 0 auto;
+			margin-top: 200px;
+			text-align: center;
+		}
+
+		#main_03_wrap > div {
+			width: 600px; /*600*/
+			height: 300px;
+			float: left;
+			position: relative;
+			margin-left: 125px;
+			margin-top: 21px;
+		}
+
+		#main_03_wrap > p {
+			font-size: 40px;
+		}
+
+		#main_03_wrap div div {
+			width: 300px;
+			height: 300px;
+			border: 1px solid white;
+		}
+
+		#main_03_wrap div p {
+			width: 280px;
+			height: 300px;
+			position: absolute;
+			top: 0;
+			left: 300px;
+			text-align: center;
+			margin: 10px;
+			margin-left: 30px;
+		}
+
+		[id^="main_03_ima"] {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			display: block;
+		}
+
+		#main_03_ima01 {
+			background-image: url(main_03_ima01.jpg);
+		}
+		#main_03_ima02 {
+			background-image: url(main_03_ima02.jpg);
+		}
+		#main_03_ima03 {
+			background-image: url(main_03_ima03.jpg);
+		}
+		#main_03_ima04 {
+			background-image: url(main_03_ima04.jpg);
+		}
+		#main_03_ima05 {
+			background-image: url(main_03_ima05.jpg);
+		}
+		#main_03_ima06 {
+			background-image: url(main_03_ima06.jpg);
+		}
+
+		footer {
+			width: 100%;
+			height: 100px;
+			background: gray;
+			margin-top: 180px;
+			text-decoration: none;
+			text-align:center;
+			line-height: 100px;
+			font-family: 돋움;
+			bottom: 0;
+			left: 0;
+		}

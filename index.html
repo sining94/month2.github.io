@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/9448297042.js" crossorigin="anonymous"></script>
+	<title>Document</title>
+	<style type="text/css">
+		body {
+			font-family: "Arial";
+			color: white;
+			margin: 0;
+			padding: 0;
+			width: 1900px;
+			height: 3200px;
+			background:black;
+		}
+/*헤더시작------------------------------------------------*/
+        header {
+        	width: 1900px;
+        	height: 80px;
+        	margin: 0 auto;
+        }
+
+        #logo {
+        	width: 100px;
+        	height: 80px;
+        	position: absolute;
+        	left: 20px;
+        	top: 0px;
+        	padding: 0;
+        	margin: 0;
+        	font-size: 80px;
+        	text-align: center;
+        }
+
+        .fa-bars {
+        	color: white;
+        	font-size: 40px;
+        	margin-top: 20px;
+        }
+
+        nav {
+        	width: 1500px;
+        	margin: 0 auto;
+        }
+
+        ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			margin-left: 60px;
+		}
+
+		ul li {
+			font-size: 30px;
+			float: left;
+			width: 200px;
+			height: 80px;
+			margin: 0 auto;
+			margin-right: 150px;
+			text-align: center;
+			line-height: 80px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		ul li:after {
+			content: "";
+			display: block;
+			clear: both;
+			width: 200px;
+			height: 80px;
+			background: black;
+			opacity: 1;
+			position: absolute;
+			top: 0;
+			right: 0;
+			transition: 0.5s;
+			opacity: 0.3;
+		}
+
+		ul li:hover:after {
+			right: -200px;
+		}
+/*헤더끝------------------------------------------------------------------*/
+/*섹션1-----------------------------------------------------------------------*/
+         #main_01 {
+         	width: 1900px;
+         	height: 800px;
+         	background-image: url(main_01.jpg);
+         	background-repeat: no-repeat;
+         	background-size: cover;
+         	background-position: center;
+         	margin: 0 auto;
+         }
+/*섹션1끝---------------------------------------------------------------*/
+/*섹션2-------------------------------------------------------------------*/
+		.main_02 {
+			width: 1900px;
+			height: 600px;
+			margin-top: 200px;
+		}
+
+		.main_02 div {
+			float: left;
+			width: 475px; /*475*/
+			height: 600px;
+			text-align: center;
+			position: relative;
+		}
+
+		#main_02_ima01 {
+			background-image: url(main_02_ima01.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima01 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima01:hover div {
+			height: 600px;
+		}
+
+		
+
+		#main_02_ima02 {
+			background-image: url(main_02_ima02.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima02 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima02:hover div {
+			height: 600px;
+		}
+
+		#main_02_ima03 {
+			background-image: url(main_02_ima03.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima03 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima03:hover div {
+			height: 600px;
+		}
+
+		#main_02_ima04 {
+			background-image: url(main_02_ima04.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		#main_02_ima04 div {
+			position: absolute;
+			width: 475px;
+			height: 0px;
+			bottom: 0;
+			background: rgba(0,0,0,0.4);
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		#main_02_ima04:hover div {
+			height: 600px;
+		}
+
+		.main_02 p {
+			color: rgba(255,255,255,0.7);
+			margin: 0 auto;
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+
+		[id^="main_02_ima"] div p {
+			text-align:center;
+			line-height: 600px;
+			color: white;
+		}
+/*섹션2끝-----------------------------------------------------------*/	
+/*섹션3시작------------------------------------------------------------*/
+		#main_03_wrap {
+			width: 1600px;
+			height: 1100px;
+			margin: 0 auto;
+			margin-top: 200px;
+			text-align: center;
+		}
+
+		#main_03_wrap > div {
+			width: 600px; /*600*/
+			height: 300px;
+			float: left;
+			position: relative;
+			margin-left: 125px;
+			margin-top: 21px;
+		}
+
+		#main_03_wrap > p {
+			font-size: 40px;
+			color: rgba(255,255,255,0.7);
+		}
+
+		#main_03_wrap div div {
+			width: 300px;
+			height: 300px;
+			border: 1px solid white;
+		}
+
+		#main_03_wrap div p {
+			width: 280px;
+			height: 300px;
+			position: absolute;
+			top: 0;
+			left: 300px;
+			text-align: center;
+			margin: 10px;
+			margin-left: 30px;
+		}
+
+		[id^="main_03_ima"] {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			display: block;
+		}
+
+		#main_03_ima01 {
+			background-image: url(main_03_ima01.jpg);
+		}
+		#main_03_ima02 {
+			background-image: url(main_03_ima02.jpg);
+		}
+		#main_03_ima03 {
+			background-image: url(main_03_ima03.jpg);
+		}
+		#main_03_ima04 {
+			background-image: url(main_03_ima04.jpg);
+		}
+		#main_03_ima05 {
+			background-image: url(main_03_ima05.jpg);
+		}
+		#main_03_ima06 {
+			background-image: url(main_03_ima06.jpg);
+		}
+
+		[id^="main_03_ima"]:after {
+			content: "영화보러가기";
+			display: none;
+			clear: both;
+			width: 300px;
+			height: 300px;
+			text-align:center;
+			line-height: 300px;
+			color: white;
+			background: rgba(0,0,0,0.5);
+		}
+
+		[id^="main_03_ima"]:hover:after {
+			display: block;
+		}
+
+		footer {
+			width: 100%;
+			height: 100px;
+			background: gray;
+			margin-top: 180px;
+			text-decoration: none;
+			text-align:center;
+			line-height: 100px;
+			font-family: 돋움;
+			bottom: 0;
+			left: 0;
+			font-weight: 600;
+		}
+		.fa-star {
+			color: yellow;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div id="logo"><i class="fab fa-medium-m"></i></div>
+			<nav>
+				<ul>
+					<li>COMPANY</li>
+					<li>BUSINESS</li>
+					<li>PRODUCT</li>
+					<li>CATEGORY</li>
+					<div><a href="#"><i class="fas fa-bars"></i></a></div>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<article id="main_01"></article>
+		</section>
+		<section>
+			<article class="main_02">
+				<p>인기 장르별 TOP10</p>
+				<div id="main_02_ima01">
+					<div><p>애니메이션</p></div>
+				</div>
+				<div id="main_02_ima02">
+					<div><p>멜로/사랑</p></div>
+				</div>
+				<div id="main_02_ima03">
+					<div><p>코믹/엽기</p></div>
+				</div>
+				<div id="main_02_ima04">
+					<div><p>공포/스릴러</p></div>
+				</div>
+			</article>
+		</section>
+		<section>
+			<article class="main_03">
+				<div id="main_03_wrap">
+					<p>회원 맞춤 추천 영화</p>
+					<div>
+						<div id="main_03_ima01"></div>
+						<p>그녀(2013)<br><br><i class="fas fa-star">4/5</i><br><br>
+						개요
+							테오도르는 타인의 마음을 전해주는 일을 하고 있지만, 정작 테오도르 자신은 너무 외롭고 공허한 삶을 살고 있다. 그러던 어느 날, 스스로 생각하고 느끼는 인공 지능 운영체제인 사만다를 만나게 된다.그렇게 둘은 직접적인 접촉보다 밀도 높은 정신적 교감을 나누는데…</p>
+					</div>
+					<div>
+						<div id="main_03_ima02"></div>
+						<p>마약왕(2018)<br><br><i class="fas fa-star">3/5</i><br><br>
+						개요
+							마약도 수출하면 애국이 되던 1970년대 대한민국, 하급 밀수업자였던 이두삼은 우연히 마약 밀수에 가담했다가 마약 제조와 유통 사업에 본능적으로 눈을 뜨게 되면서 사업에 뛰어든다.한편, 마약으로 인해 세상은 점점 불안해지기 시작하고 승승장구하는 이두삼을 주시하는 한 사람 김인구가 움직이기 시작하는데…</p>
+					</div>
+					<div>
+						<div id="main_03_ima03"></div>
+						<p>기억의 밤(2017)<br><br><i class="fas fa-star">4/5</i><br><br>
+						개요
+							새 집으로 이사 온 날 밤, 정체불명의 괴한들에게 납치된 형 유석. 동생 진석은 형이 납치된 후 매일 밤 환청과 환각에 시달리며 불안해한다. 납치된지 19일째 되는 날 돌아온 유석은 그동안의 모든 기억을 잃었다고 말한다. 하지만 돌아온 뒤로 어딘가 변해버린 유석을 의심하던 진석은 매일 밤 사라지는 형을 쫓던 중 충격적인 사실과 마주하게 되는데...</p>
+					</div>
+					<div>
+						<div id="main_03_ima04"></div>
+						<p>히말라야(2015)<br><br><i class="fas fa-star">3/5</i><br><br>
+						개요
+							해발 8,750 미터 히말라야 에베레스트 데스존 인간의 접근을 허락하지 않은 신의 영역 그곳에 우리 동료가 묻혀있다. 그 누구도 시도하지 않았던 위대한 도전 엄홍길 대장과 휴먼원정대의 감동 실화가 공개된다!</p>
+					</div>
+					<div>
+						<div id="main_03_ima05"></div>
+						<p>대배우(2016)<br><br><i class="fas fa-star">4/5</i><br><br>
+						개요
+							아동극 ‘플란다스의 개’의 파트라슈 역할 전문으로 20년째 대학로를 지키고 있는 ‘성필’. 세계적인 깐느박 감독 작품 신인 배우 모집! 전세계가 인정한 대한민국 대표감독 ‘깐느박’. 그가 새영화 의 사제 역할로 뉴페이스를 찾고 있다. '성필'에게는 자신의 연기를 만인 앞에 선보일 수 있는 절호의 찬스! ‘성필’은 일생일대의 메소드 연기를 준비하는데…</p>
+					</div>
+					<div>
+						<div id="main_03_ima06"></div>
+						<p>어스(2019)<br><br><i class="fas fa-star">5/5</i><br><br>
+						개요
+							애들레이드와 게이브 윌슨은 아이들을 데리고 캘리포니아 북부에 있는 아들레이드의 오래된 해변가로 여름 휴가를 떠난다. 밤이 되고 윌슨은 차도에 조용히 서있는 네명의 손을 맞잡은 뭔가를 보게 되는데...</p>
+					</div>
+				</div>
+				
+			</article>
+		</section>
+		<div id="label"></div>
+		<footer>
+			<p>잡연세 직업 전문학원</p>
+		</footer>
+	</div>
+	
+</body>
+</html>
